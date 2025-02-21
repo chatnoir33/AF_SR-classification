@@ -5,4 +5,5 @@ These codes were used in the paper (Chaos ??, ?????, 2025, doi.org/??/??).
 	mkrp2-1.c -> obtaining Fig. 4(a) refered as SP_{gray}
 	mkrp2-2.c -> obtaining Fig. 4(b) refered as SP_{bin}
 	mkrp1.c -> making RPs for obtaining Fig. 10(b)
+ 	heatmap.py　-> obtaining heat maps of Fig. 9
 	2sampleKStest2.py -> Kolmogorov-Smirnov (KS) test
