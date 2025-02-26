@@ -3,22 +3,6 @@ import numpy as np
 from scipy.stats import ks_2samp
 import matplotlib.pyplot as plt
 
-'''
-We made the following three comparisons using the Kolmogorov--Smirnov (KS) test on
-two samples of the pairwise distance distributions from SR and AF groups,
-where the null hypothesis is that the two samples follow the same distribution.
-
-1. All pairs in 100 randomly chosen distance distributions of pulse waves from SR groups were tested;
-the ratio of the number of pairs with a p-value greater than 0.05 to those without was 0.470.
-
-2. All pairs in 100 randomly chosen distance distributions of pulse waves from AF groups were tested;
-the ratio of the number of pairs with a p-value greater than 0.05 to those without was 0.455.
-
-3. All pairs between SR and AF groups in the above-chosen distance distributions were tested;
-the ratio of the number of pairs with a p-value greater than 0.05 to those without was 0.421.
-
-These resuts imply that it is difficult to distinguish between the SR and AF groups by the distance distribution.
-'''
 np.random.seed(seed=0)
 N = 100
 
